@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS -->
+</head>
+<body class="contact-page">
+    <header>
+        <div class="overlay"></div>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-container">
+        <h2>Get in Touch</h2>
+        <p>Fill out the form below or reach us through our contact details.</p>
+
+        <form action="https://formsubmit.co/suryakumar4208@gmail.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h3 style="margin-top:4px;" ;>Contact Details</h3>
+            <p><strong>Email:</strong> 
+                <a href="mailto:your-email@example.com?subject=Inquiry&body=Hello, I would like to know more about...">
+                    suryakumar4208@gmail.com
+                </a>
+            </p>            
+            <p><strong>Phone:</strong> +91 6385395732</p>
+            <p><strong>Address:</strong> 47/14 near barath vidyalayam school railyway feeder road </p>
+        </div>
+    </section>
+    <p id="responseMessage"></p>
+</body>
+</html>
